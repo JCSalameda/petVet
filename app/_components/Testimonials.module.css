@@ -1,0 +1,83 @@
+.testimonials {
+  padding: var(--space-section) 0;
+  background-color: var(--canvas);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header {
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: var(--text-h2);
+}
+
+.carousel {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  
+  /* Hide scrollbar for cleaner look */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 320px;
+  max-width: 400px;
+  flex: 0 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  scroll-snap-align: start;
+}
+
+.quote {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  line-height: 1.5;
+  color: var(--espresso);
+}
+
+.authorArea {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  /* Gradient provided inline */
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  font-weight: 500;
+  color: var(--espresso);
+}
+
+.pet {
+  font-size: 0.85rem;
+  color: var(--espresso-light);
+}

@@ -1,0 +1,82 @@
+:root {
+  /* Canvas */
+  --canvas:            #FDFBF7;   /* warm cream — NO stark white */
+
+  /* Primary — Warm & Grounded */
+  --terracotta:        #C2703E;   /* deep amber-clay */
+  --terracotta-light:  #D4956A;
+  --coral:             #E8845A;   /* sun-baked coral for CTAs */
+
+  /* Secondary — Calming & Organic */
+  --sage:              #7A8B6F;   /* muted sage */
+  --forest-teal:       #3D6B63;   /* deep desaturated forest teal */
+
+  /* Dark Accents — NO pitch black */
+  --espresso:          #2C2420;   /* charcoal-espresso for text */
+  --espresso-light:    #4A3F39;
+
+  /* Glassmorphism */
+  --glass-fill:        rgba(255, 255, 255, 0.4);
+  --glass-border:      rgba(255, 255, 255, 0.5);
+  --glass-blur:        24px;
+
+  /* Shadows — multi-layered, diffused, ambient */
+  --shadow-ambient:    0 2px 8px rgba(44, 36, 32, 0.04),
+                       0 8px 24px rgba(44, 36, 32, 0.06),
+                       0 16px 48px rgba(44, 36, 32, 0.04);
+
+  /* Typography scale */
+  --text-hero:         clamp(3.5rem, 8vw, 7rem);
+  --text-h2:           clamp(2rem, 4vw, 3.5rem);
+  --text-h3:           clamp(1.25rem, 2vw, 1.75rem);
+  --text-body:         clamp(1rem, 1.2vw, 1.125rem);
+  --tracking-wide:     0.04em;
+  --leading-relaxed:   1.7;
+
+  /* Spacing macro */
+  --space-section:     clamp(6rem, 12vw, 10rem);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--canvas);
+  color: var(--espresso);
+  font-family: var(--font-body), sans-serif;
+  line-height: var(--leading-relaxed);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--espresso);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Base utility classes for reuse */
+.glass-panel {
+  background: var(--glass-fill);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-ambient);
+  border-radius: 24px;
+}

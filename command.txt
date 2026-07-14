@@ -1,0 +1,46 @@
+Brand & Vibe:
+Freya's Care is a premium, boutique pet wellness ecosystem (Veterinary, Grooming, and Curated Retail). The design must entirely avoid the clinical, sterile look of traditional medical sites, as well as the overly childish, cartoonish tropes of standard pet shops. Think "luxury human skincare meets warm, architectural wellness retreat."
+
+1. Color Theory & Atmosphere
+Base Canvas: A sophisticated, warm cream/off-white (#FDFBF7 or similar) that feels tactile and organic. Absolute stark white is prohibited except for subtle highlights.
+
+Primary Palette (Warm & Grounded): Deep, rich Terracotta or Amber-Clay paired with a soft, sun-baked Coral for primary accents and high-priority CTAs.
+
+Secondary Palette (Calming & Organic): Muted Sage Green or deep, desaturated Forest Teal to anchor the veterinary/healthcare sections.
+
+Dark Accents: Replace pitch black with a deep Charcoal-Espresso for typography to maintain an organic, high-end feel.
+
+2. Layout, Structure & Anti-Templates
+Editorial Asymmetry: Ban the standard "symmetric 3-card row" or repetitive alternating grid blocks. Utilize a dynamic, editorial layout inspired by modern design magazines:
+
+Offset grid alignments where text and image cards overlap organically.
+
+Variable-width columns (e.g., a 2-column section where the image takes up 65% and text takes up 35%).
+
+Generous, intentional whitespace (macro-spacing) to give elements room to breathe.
+
+Layered Depth: Use subtle overlapping containers, negative margins, and floating design accents to create a distinct Z-axis depth.
+
+3. Sophisticated Glassmorphism & UI Accents
+Subtle Frosting: The navbar and key feature panels should use micro-frosted glass effects (ultra-high backdrop-blur, very low-opacity tinted white fills, e.g., rgba(255,255,255,0.4)).
+
+Luminous Borders: Elevate cards with ultra-thin, semi-transparent border strokes that mimic a soft edge-glow.
+
+Drop Shadows: No harsh shadows. Use multi-layered, diffused, low-opacity ambient shadows that look like natural soft-box lighting.
+
+4. Type & Hierarchy
+Display Typography: A warm, high-personality serif or a heavily rounded, high-end editorial display font for headers (e.g., editorial chic or premium organic sans-rounded).
+
+Body Typography: A highly legible, clean geometric sans-serif with excellent tracking (letter-spacing) and line-height for effortless scanning.
+
+Scale: Dramatic contrast between massive, statement hero headlines and tightly controlled, elegant body copy.
+
+5. Abstract 3D & Micro-Motion
+Ambient 3D Elements: In the hero and key section transitions, integrate fluid, organic 3D shapes (such as soft, clay-textured blobs, a minimalist low-poly stylized collar, or a smooth matte paw print). They should gently float or react via micro-parallax to the user's mouse movement.
+
+Micro-interactions: Keep animations incredibly understated. Implement smooth "lift-and-glow" states on cards, elegant page-entry slide-fades, and magnetic hover effects on primary buttons. No jarring or hyperactive transitions.
+
+6. Visual Placeholders & Systems
+Editorial Geometry: Where photos are absent, use elegant, multi-toned geometric gradients, abstract SVG line-art blobs, or architectural color-block containers rather than grey boxes.
+
+Iconography: Use ultra-clean, consistent, thin-stroke monoline icons. Avoid filled or multi-colored icons; stick to unified line art that scales elegantly.
