@@ -71,7 +71,7 @@ const AboutPage = () => {
             <h2 className={styles.role}>Lead Platform Engineer</h2>
             
             <p className={styles.bio}>
-              As the Lead Platform Engineer at <strong>marrow & morn</strong>, I build the frontend systems and interactive experiences that bring this platform to life. I am a freelancer from the Philippines with extensive experience in both frontend and backend development.
+              As the Lead Platform Engineer at <strong>Freya's Care</strong>, I build the frontend systems and interactive experiences that bring this platform to life. I am a freelancer from the Philippines with extensive experience in both frontend and backend development.
             </p>
             
             <div className={styles.education}>
