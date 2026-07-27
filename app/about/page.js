@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Briefcase, Code, MapPin, GraduationCap, Server, Bot, ShieldAlert, Cpu } from 'lucide-react';
 import styles from './about.module.css';
+import Navbar from '../_components/Navbar';
 
 const AboutPage = () => {
   const projects = [
@@ -40,8 +41,10 @@ const AboutPage = () => {
   ];
 
   return (
-    <div className={styles.container}>
-      <div className={styles.backgroundGlow}></div>
+    <>
+      <Navbar />
+      <div className={styles.container}>
+        <div className={styles.backgroundGlow}></div>
       
       <main className={styles.mainContent}>
         {/* Profile Section */}
@@ -107,6 +110,7 @@ const AboutPage = () => {
         </section>
       </main>
     </div>
+    </>
   );
 };
 

@@ -11,14 +11,14 @@ export default function Navbar() {
         </Link>
         
         <nav className={styles.nav}>
-          <Link href="#services" className={styles.link}>Services</Link>
-          <Link href="#philosophy" className={styles.link}>Philosophy</Link>
-          <Link href="#testimonials" className={styles.link}>Testimonials</Link>
+          <Link href="/#services" className={styles.link}>Services</Link>
+          <Link href="/#philosophy" className={styles.link}>Philosophy</Link>
+          <Link href="/#testimonials" className={styles.link}>Testimonials</Link>
           <Link href="/about" className={styles.link}>About</Link>
         </nav>
         
         <div className={styles.actions}>
-          <a href="#hub" className={styles.cta}>Book a Visit</a>
+          <a href="/#hub" className={styles.cta}>Book a Visit</a>
           <button className={styles.mobileMenu}>
             <Menu className={styles.icon} />
           </button>
