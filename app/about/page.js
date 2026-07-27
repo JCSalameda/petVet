@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
 import { Briefcase, Code, MapPin, GraduationCap, Server, Bot, ShieldAlert, Cpu } from 'lucide-react';

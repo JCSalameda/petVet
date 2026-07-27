@@ -14,6 +14,7 @@ export default function Navbar() {
           <Link href="#services" className={styles.link}>Services</Link>
           <Link href="#philosophy" className={styles.link}>Philosophy</Link>
           <Link href="#testimonials" className={styles.link}>Testimonials</Link>
+          <Link href="/about" className={styles.link}>About</Link>
         </nav>
         
         <div className={styles.actions}>
